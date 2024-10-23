@@ -1,0 +1,49 @@
+
+.form-container {
+  background-color: #bee0e4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.signature-section {
+  margin-top: 20px;
+  .MuiTextField-root {
+    margin-bottom: 16px;
+  }
+}
+
+.submit-button {
+  background-color: #1976d2;
+  color: white;
+  &:hover {
+    background-color: #1565c0;
+  }
+}
+
+.secondary-button {
+  background-color: #f50057;
+  color: white;
+  &:hover {
+    background-color: #c51162;
+  }
+}
+
+.historical-assessments-button{
+ display: flex;
+}
+.historical-assessments {
+  margin-top: 40px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fefefe;
+
+  .assessment-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+}
